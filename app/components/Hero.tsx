@@ -23,10 +23,10 @@ function Hero() {
       <div>
         <div className="flex flex-col md:m-4 md:mt-10 px-6 shadow-sm items-center text-center h-[580px] bg-white text-gray-600">
           {/* <img src="yeshivatshaul.jpg" alt="Yeshivas Geulas Shaul Logo" className="w-48 h-auto mb-6" /> */}
-          <h1 className="mt-32 text-[40px] font-bold mb-4 max-w-[500px]">
+          <h1 className="mt-16 text-3xl lg:mt-32 lg:text-[40px] font-bold mb-4 max-w-[500px]">
             Welcome to Yeshivas Geulas Shaul
           </h1>
-          <p className="text-xl mt-3 md:px-12 tracking-wide mb-6">
+          <p className="text-lg text-gray-600 lg:text-xl mt-3 md:px-12 tracking-wide mb-6">
             Join us in building a brighter future with Torah, growth, and
             community.
           </p>
