@@ -15,7 +15,7 @@ export default function Navigation() {
   };
 
   return (
-    <nav className={`${rashi.className} bg-white shadow-inner py-6 px-6 md:px-24`}>
+    <nav className={`${rashi.className} bg-white shadow-inner py-10 px-6 md:px-24`}>
       <div className="flex items-center justify-between">
         {/* Logo on the left */}
         <div className="flex items-center">
