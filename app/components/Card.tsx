@@ -2,8 +2,7 @@ import React from 'react';
 import {Noto_Rashi_Hebrew } from 'next/font/google'
 import Image from 'next/image';
 
-const rashi = Noto_Rashi_Hebrew({ variable: "--font-rashi" });
-
+const rashi = Noto_Rashi_Hebrew({ variable: "--font-rashi", subsets: ['hebrew'] });
 
 interface CardProps {
   title: string;

@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { Noto_Rashi_Hebrew } from 'next/font/google';
 
-const rashi = Noto_Rashi_Hebrew({ variable: "--font-rashi" });
+const rashi = Noto_Rashi_Hebrew({ variable: "--font-rashi", subsets: ['hebrew'] });
 
 export default function Footer() {
   return (
