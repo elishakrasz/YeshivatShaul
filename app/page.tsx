@@ -4,7 +4,7 @@ import Card from "./components/Card";
 const info = [
   { title: "תורה", subTitle: "Torah" },
   { title: "אהבת ישראל", subTitle: "Ahavat Israel" },
-  { title: "צדק", subTitle: "Righteousness" }
+  { title: "צדק", subTitle: "Righteousness" },
 ];
 
 export default function Home() {
@@ -12,17 +12,14 @@ export default function Home() {
     <div>
       <Hero />
 
-      <div className="mt-16 px-6 lg:px-16 lg:mt-24 mb-44 flex flex-col items-center justify-center lg:grid lg:grid-cols-3 lg:gap-8 space-y-6 lg:space-y-0">
-  {info.map((card) => (
-    <Card key={card.title} title={card.title} subTitle={card.subTitle} />
-  ))}
-</div>
-
-      {/* <div className="mt-16 px-6 lg:px-16 lg:mt-24 mb-44 flex items-center justify-center lg:grid lg:grid-cols-3 lg:gap-4 space-y-6 lg:space-y-0 lg:space-x-6">
-        {info.map((card) => (
-          <Card key={card.title} title={card.title} subTitle={card.subTitle} />
-        ))}
-      </div> */}
+      {/* Cards Section */}
+      <div className="mt-16 px-6 lg:px-16 lg:mt-24 mb-44 flex flex-col items-center justify-center">
+        <div className="flex flex-wrap items-center justify-center gap-8 lg:max-w-6xl">
+          {info.map((card) => (
+            <Card key={card.title} title={card.title} subTitle={card.subTitle} />
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
