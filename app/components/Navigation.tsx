@@ -28,8 +28,9 @@ export default function Navigation() {
       
       
       <div >
-        <Link href="/contact">
-          <p className="text-slate-600 font-light text-2xl hover:underline ">Contact</p>
+        <Link href="mailto:info@ygs.world"
+        >
+          <p className="text-slate-600 font-light text-2xl hover:text-blue-900">Contact</p>
         </Link>
       </div>
     </nav>
