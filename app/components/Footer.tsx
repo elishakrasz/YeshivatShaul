@@ -6,20 +6,17 @@ const rashi = Noto_Rashi_Hebrew({ variable: "--font-rashi", subsets: ['hebrew'] 
 
 export default function Footer() {
   return (
-    <footer className={`${rashi.className} flex items-center justify-between  py-4 px-32`}>
+    <footer className={`hidden ${rashi.className}  items-center justify-between py-4 px-32 lg:flex`}>
       {/* Footer Links */}
-      <div>
+      <div className=''>
         <div className="flex items-center">
-          <Link href="mailto:info@ygs.world"
-          >
+          <Link href="mailto:info@ygs.world">
             <p className="text-slate-600 font-light text-xl hover:underline mr-8">About Us</p>
           </Link>
-          <Link href="mailto:info@ygs.world"
-          >
+          <Link href="mailto:info@ygs.world">
             <p className="text-slate-600 font-light text-xl hover:underline mr-8">Programs</p>
           </Link>
-          <Link href="mailto:info@ygs.world"
-          >
+          <Link href="mailto:info@ygs.world">
             <p className="text-slate-600 font-light text-xl hover:underline">Support</p>
           </Link>
         </div>
