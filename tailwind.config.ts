@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero-yeshiva': "url('/yeshivatshaul.jpg')",
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
