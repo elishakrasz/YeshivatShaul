@@ -8,7 +8,8 @@ export default function Footer() {
   return (
     <footer className={`hidden ${rashi.className}  items-center justify-between py-4 px-32 lg:flex`}>
       {/* Footer Links */}
-      <div className=''>
+      <div></div>
+      {/* <div className=''>
         <div className="flex items-center">
           <Link href="mailto:info@ygs.world">
             <p className="text-slate-600 font-light text-xl hover:underline mr-8">About Us</p>
@@ -20,7 +21,7 @@ export default function Footer() {
             <p className="text-slate-600 font-light text-xl hover:underline">Support</p>
           </Link>
         </div>
-      </div>
+      </div> */}
 
       {/* Centered Text */}
       <div className={`${rashi.className} text-center flex py-4`}>
